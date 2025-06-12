@@ -1,0 +1,2 @@
+FILES	=																	\
+	ScalarConverter main													\
