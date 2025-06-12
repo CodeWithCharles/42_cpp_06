@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/12 15:19:18 by cpoulain          #+#    #+#             */
-/*   Updated: 2025/06/12 15:22:30 by cpoulain         ###   ########.fr       */
+/*   Updated: 2025/06/12 15:23:02 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	main()
 	Data		*deserialized(Serializer::deserialize(serialized));
 
 	std::cout << "Post-Serialization" << std::endl;
-	std::cout << "x: " << data_ptr->x << std::endl;
-	std::cout << "y: " << data_ptr->y << std::endl;
-	std::cout << "z: " << data_ptr->z << std::endl;
+	std::cout << "x: " << deserialized->x << std::endl;
+	std::cout << "y: " << deserialized->y << std::endl;
+	std::cout << "z: " << deserialized->z << std::endl;
 }
